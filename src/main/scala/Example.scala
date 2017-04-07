@@ -8,5 +8,6 @@ import doodle.backend.StandardInterpreter._
 //
 // Example.image.draw
 object Example {
-  val image = circle(10) on circle(20) on circle(30)
+  val image = circle(10) on circle(20) on circle(30) on circle(40)
+  val image1 = image.draw
 }
